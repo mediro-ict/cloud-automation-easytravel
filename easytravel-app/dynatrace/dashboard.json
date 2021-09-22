@@ -270,7 +270,7 @@
       }
     },
     {
-      "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c1000000,\u003c=+10%;warning=\u003c=500000",
+      "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c1000000,\u003c=+10%;warning=\u003c=500000;key=true",
       "tileType": "DATA_EXPLORER",
       "configured": true,
       "query": "",
