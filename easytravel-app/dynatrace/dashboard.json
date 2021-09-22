@@ -36,7 +36,7 @@
       "bounds": {
         "top": 190,
         "left": 0,
-        "width": 874,
+        "width": 836,
         "height": 38
       },
       "tileFilter": {
@@ -130,9 +130,9 @@
       "CustomName": "",
       "Markdown": "### Architectural Evaluation - Database Calls and Intertier-Calls",
       "bounds": {
-        "top": 646,
-        "left": 1140,
-        "width": 1026,
+        "top": 760,
+        "left": 798,
+        "width": 912,
         "height": 38
       },
       "tileFilter": {
@@ -162,8 +162,8 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 114,
-        "left": 1330,
+        "top": 228,
+        "left": 950,
         "width": 304,
         "height": 266
       },
@@ -280,8 +280,8 @@
       "bounds": {
         "top": 228,
         "left": 0,
-        "width": 1140,
-        "height": 456
+        "width": 798,
+        "height": 380
       },
       "tileFilter": {
         "timeframe": ""
@@ -325,9 +325,9 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 114,
-        "left": 1634,
-        "width": 494,
+        "top": 228,
+        "left": 1254,
+        "width": 456,
         "height": 266
       },
       "tileFilter": {
@@ -370,8 +370,8 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 380,
-        "left": 1330,
+        "top": 494,
+        "left": 950,
         "width": 304,
         "height": 266
       },
@@ -428,8 +428,8 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 380,
-        "left": 1824,
+        "top": 494,
+        "left": 1406,
         "width": 304,
         "height": 266
       },
@@ -486,9 +486,9 @@
       "CustomName": "",
       "Markdown": "### Transactional Analysis on CPU Consumption, I/O time and Lock time",
       "bounds": {
-        "top": 76,
-        "left": 1140,
-        "width": 988,
+        "top": 190,
+        "left": 836,
+        "width": 874,
         "height": 38
       },
       "tileFilter": {
@@ -582,9 +582,9 @@
       "CustomName": "",
       "Markdown": "Explanation on how important to evaluate IO/Synchronisation and CPU time, specially on load tests.",
       "bounds": {
-        "top": 0,
+        "top": 114,
         "left": 1140,
-        "width": 836,
+        "width": 570,
         "height": 76
       },
       "tileFilter": {
@@ -614,9 +614,9 @@
       "CustomName": "Single value",
       "Markdown": "",
       "bounds": {
-        "top": 684,
-        "left": 380,
-        "width": 380,
+        "top": 608,
+        "left": 266,
+        "width": 266,
         "height": 228
       },
       "tileFilter": {
@@ -672,9 +672,9 @@
       "CustomName": "Single value",
       "Markdown": "",
       "bounds": {
-        "top": 684,
+        "top": 608,
         "left": 0,
-        "width": 380,
+        "width": 266,
         "height": 228
       },
       "tileFilter": {
@@ -712,9 +712,9 @@
       "CustomName": "Single value",
       "Markdown": "",
       "bounds": {
-        "top": 684,
-        "left": 760,
-        "width": 380,
+        "top": 608,
+        "left": 532,
+        "width": 266,
         "height": 228
       },
       "tileFilter": {
@@ -752,9 +752,9 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 114,
-        "left": 1140,
-        "width": 190,
+        "top": 228,
+        "left": 798,
+        "width": 152,
         "height": 114
       },
       "tileFilter": {
@@ -810,8 +810,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 114,
-        "left": 2128,
+        "top": 228,
+        "left": 1710,
         "width": 152,
         "height": 152
       },
@@ -910,9 +910,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 228,
-        "left": 1140,
-        "width": 190,
+        "top": 342,
+        "left": 798,
+        "width": 152,
         "height": 152
       },
       "tileFilter": {
@@ -960,10 +960,10 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 380,
-        "left": 1140,
-        "width": 190,
-        "height": 266
+        "top": 494,
+        "left": 798,
+        "width": 152,
+        "height": 152
       },
       "tileFilter": {
         "timeframe": ""
@@ -1010,10 +1010,10 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 380,
-        "left": 1634,
-        "width": 190,
-        "height": 266
+        "top": 494,
+        "left": 1254,
+        "width": 152,
+        "height": 152
       },
       "tileFilter": {
         "timeframe": ""
@@ -1060,9 +1060,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 684,
-        "left": 1634,
-        "width": 190,
+        "top": 798,
+        "left": 1254,
+        "width": 152,
         "height": 152
       },
       "tileFilter": {
@@ -1110,9 +1110,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 684,
-        "left": 1140,
-        "width": 190,
+        "top": 798,
+        "left": 798,
+        "width": 152,
         "height": 152
       },
       "tileFilter": {
@@ -1160,9 +1160,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 912,
-        "left": 760,
-        "width": 380,
+        "top": 836,
+        "left": 532,
+        "width": 266,
         "height": 152
       },
       "tileFilter": {
@@ -1210,9 +1210,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 912,
-        "left": 380,
-        "width": 380,
+        "top": 836,
+        "left": 266,
+        "width": 266,
         "height": 152
       },
       "tileFilter": {
@@ -1260,9 +1260,9 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 912,
+        "top": 836,
         "left": 0,
-        "width": 380,
+        "width": 266,
         "height": 152
       },
       "tileFilter": {
@@ -1310,9 +1310,9 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 684,
-        "left": 1824,
-        "width": 342,
+        "top": 798,
+        "left": 1406,
+        "width": 304,
         "height": 266
       },
       "tileFilter": {
@@ -1368,8 +1368,8 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 684,
-        "left": 1330,
+        "top": 798,
+        "left": 950,
         "width": 304,
         "height": 266
       },
