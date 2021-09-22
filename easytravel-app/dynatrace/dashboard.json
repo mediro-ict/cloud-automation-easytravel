@@ -317,7 +317,7 @@
       }
     },
     {
-      "name": "Exceptions Count by Test Step;sli=kpi_et_ex;pass=\u003c=100;warning=\u003c=200;weight=2",
+      "name": "Exceptions Count by Test Step;sli=kpi_et_ex;pass=\u003c=100;warning=\u003c=200;weight=2;key=true",
       "tileType": "DATA_EXPLORER",
       "configured": true,
       "query": "",
@@ -822,7 +822,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Error count;sli=error_count;pass=\u003c2;warning=\u003c=5;weight=2",
+        "customName": "Error count;sli=error_count;pass=\u003c2;warning=\u003c=5;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -872,7 +872,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Throughput (Request Count);sli=throughput_svc;pass=\u003e5000",
+        "customName": "Throughput (Request Count);sli=throughput_svc;pass=\u003e5000;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1172,7 +1172,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c1500;warning=\u003c2000;weight=2",
+        "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c1500;warning=\u003c2000;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1222,7 +1222,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c1500;warning=\u003c2000;weight=2",
+        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c1500;warning=\u003c2000;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1272,7 +1272,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1500;warning=\u003c2000;weight=2",
+        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1500;warning=\u003c2000;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
