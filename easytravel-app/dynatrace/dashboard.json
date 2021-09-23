@@ -68,7 +68,7 @@
       "bounds": {
         "top": 0,
         "left": 0,
-        "width": 760,
+        "width": 874,
         "height": 38
       },
       "tileFilter": {
@@ -96,12 +96,12 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "Dynatrace helps on shifting left from Production to your Development by [generating the SLI/O Quality Gate definition from this 🔗 Dashboard](https://github.com/keptn-contrib/dynatrace-service/blob/master/documentation/sli-configuration.md#slis--slos-via-dynatrace-dashboard):\n\n - [Generated from this Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml) \n - [Manual approach (template)](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml.template)",
+      "Markdown": "Dynatrace helps on **shifting left ⬅️ from 🧑‍💼Production to your 👨‍💻Development** by [generating the SLI/O Quality Gate definition from this 🔗 Dashboard](https://github.com/keptn-contrib/dynatrace-service/blob/master/documentation/sli-configuration.md#slis--slos-via-dynatrace-dashboard):\n\n - [Generated YAML from this Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml) \n - [Manual approach (YAML template)](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml.template)",
       "bounds": {
-        "top": 0,
-        "left": 798,
+        "top": 38,
+        "left": 836,
         "width": 342,
-        "height": 190
+        "height": 152
       },
       "tileFilter": {
         "timeframe": ""
@@ -220,9 +220,9 @@
       "CustomName": "Data explorer results",
       "Markdown": "",
       "bounds": {
-        "top": 38,
-        "left": 380,
-        "width": 190,
+        "top": 342,
+        "left": 798,
+        "width": 152,
         "height": 152
       },
       "tileFilter": {
@@ -429,8 +429,8 @@
       "Markdown": "",
       "bounds": {
         "top": 494,
-        "left": 1406,
-        "width": 304,
+        "left": 1254,
+        "width": 456,
         "height": 266
       },
       "tileFilter": {
@@ -516,11 +516,11 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "Some explanation to Error and service metrics based on tags, shifting left to developers ",
+      "Markdown": "- Automatic FullStack Observability\n- End-End [Load-Testing](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/jmeter/easytravel-classic-random-book.jmx) on every commit/merge\n- Automatic release comparison based on SLI/SLO\n- SLI and SLO based on Purepath4 and FullStack Observability\n- Evaluate Performance, Architecture and Business KPI automatically\n- Shift Business KPIs on Quality Gates",
       "bounds": {
         "top": 38,
-        "left": 570,
-        "width": 228,
+        "left": 304,
+        "width": 494,
         "height": 152
       },
       "tileFilter": {
@@ -548,44 +548,12 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "Explanation on evaluating Response time End to End.",
+      "Markdown": "A Single Booking ensures that the application works as expected, but for every release we want to make sure the application not only works as expected but also under load. \nPerformance Problems, Scalability issues and Optimizations can be unveiled under load 🔥. Exactly where the application is needed the most is where it should NOT fail. It’s important to unveil the limits of each application in order to size it properly and not waste resources by not knowing the limits of the system.\n\nThis is why automated quality gates with automated performance testing, validation and release comparison is so important. Make sure automatically that every release works, every important KPI is fulfilled, it is important as well as architecture and performance SLOs by every Pull Requests or Merge. ",
       "bounds": {
-        "top": 38,
-        "left": 0,
-        "width": 228,
-        "height": 152
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
-    },
-    {
-      "name": "Markdown",
-      "tileType": "MARKDOWN",
-      "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "Explanation on how important to evaluate IO/Synchronisation and CPU time, specially on load tests.",
-      "bounds": {
-        "top": 114,
-        "left": 1140,
-        "width": 570,
-        "height": 76
+        "top": 0,
+        "left": 1178,
+        "width": 684,
+        "height": 190
       },
       "tileFilter": {
         "timeframe": ""
@@ -860,8 +828,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 38,
-        "left": 228,
+        "top": 494,
+        "left": 798,
         "width": 152,
         "height": 152
       },
@@ -894,8 +862,8 @@
         },
         "filtersPerEntityType": {
           "SERVICE": {
-            "AUTO_TAGS": [
-              "CloudAutomation EasyTravel"
+            "SPECIFIC_ENTITIES": [
+              "SERVICE-83EAFA44D6C83E3E"
             ]
           }
         }
@@ -910,8 +878,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 342,
-        "left": 798,
+        "top": 380,
+        "left": 1710,
         "width": 152,
         "height": 152
       },
@@ -960,8 +928,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 494,
-        "left": 798,
+        "top": 684,
+        "left": 1710,
         "width": 152,
         "height": 152
       },
@@ -1010,8 +978,8 @@
       "CustomName": "",
       "Markdown": "",
       "bounds": {
-        "top": 494,
-        "left": 1254,
+        "top": 532,
+        "left": 1710,
         "width": 152,
         "height": 152
       },
@@ -1403,6 +1371,38 @@
           }
         }
       ],
+      "assignedEntities": null,
+      "filterConfig": {
+        "type": "",
+        "customName": "",
+        "defaultName": "",
+        "chartConfig": {
+          "legendShown": false,
+          "type": "",
+          "series": null,
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": null
+      }
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "",
+      "Markdown": "### Deliver better Software faster with Intelligent Quality Gates and Performance as a Service",
+      "bounds": {
+        "top": 38,
+        "left": 0,
+        "width": 304,
+        "height": 152
+      },
+      "tileFilter": {
+        "timeframe": ""
+      },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "",
