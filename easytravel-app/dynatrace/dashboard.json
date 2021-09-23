@@ -32,7 +32,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) ",
+      "Markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge/project/dynatrace) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) ",
       "bounds": {
         "top": 190,
         "left": 0,
