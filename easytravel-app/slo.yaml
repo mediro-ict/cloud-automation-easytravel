@@ -6,17 +6,6 @@ comparison:
   number_of_comparison_results: 3
   aggregate_function: avg
 objectives:
-- sli: kpi_rt_9_-_Finish_Payment
-  displayName: ""
-  pass:
-  - criteria:
-    - <100
-    - <=+15%
-  warning:
-  - criteria:
-    - <=600
-  weight: 1
-  key_sli: true
 - sli: kpi_rt_4_-_Random_Search
   displayName: ""
   pass:
@@ -28,7 +17,7 @@ objectives:
     - <=600
   weight: 1
   key_sli: true
-- sli: kpi_rt_2_-_CalculateRecommendations
+- sli: kpi_rt_9_-_Finish_Payment
   displayName: ""
   pass:
   - criteria:
@@ -40,6 +29,17 @@ objectives:
   weight: 1
   key_sli: true
 - sli: kpi_rt_6_-_Select_Payment
+  displayName: ""
+  pass:
+  - criteria:
+    - <100
+    - <=+15%
+  warning:
+  - criteria:
+    - <=600
+  weight: 1
+  key_sli: true
+- sli: kpi_rt_2_-_CalculateRecommendations
   displayName: ""
   pass:
   - criteria:
