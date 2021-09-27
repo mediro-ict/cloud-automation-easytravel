@@ -29,10 +29,7 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge/project/dynatrace) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) ",
+      "markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge/project/dynatrace) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) ",
       "bounds": {
         "top": 190,
         "left": 0,
@@ -41,94 +38,43 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=85%;KQG.Compare.WithScore=pass;KQG.Compare.Results=3;KQG.Compare.Function=avg\n",
+      "markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=85%;KQG.Compare.WithScore=pass;KQG.Compare.Results=3;KQG.Compare.Function=avg\n",
       "bounds": {
         "top": 0,
         "left": 0,
-        "width": 874,
+        "width": 836,
         "height": 38
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "Dynatrace helps on **shifting left ⬅️ from 🧑‍💼Production to your 👨‍💻Development** by [generating the SLI/O Quality Gate definition from this 🔗 Dashboard](https://github.com/keptn-contrib/dynatrace-service/blob/master/documentation/sli-configuration.md#slis--slos-via-dynatrace-dashboard):\n\n - [Generated YAML from this Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml) \n - [Manual approach (YAML template)](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml.template)",
+      "markdown": "Dynatrace helps on **shifting left ⬅️ from 🧑‍💼Production to your 👨‍💻Development** by [generating the SLI/O Quality Gate definition](https://github.com/keptn-contrib/dynatrace-service/blob/master/documentation/sli-configuration.md#slis--slos-via-dynatrace-dashboard) from this 🔗[Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/dashboard.json):\n\n\n - [Generated YAML from this Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml) \n - [Manual approach (YAML template)](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml.template)",
       "bounds": {
-        "top": 38,
+        "top": 0,
         "left": 836,
         "width": 342,
         "height": 152
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "### Architectural Evaluation - Database Calls and Intertier-Calls",
+      "markdown": "### Architectural Evaluation - Database Calls and Intertier-Calls",
       "bounds": {
         "top": 760,
         "left": 798,
@@ -137,30 +83,13 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "CPU time",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 228,
         "left": 950,
@@ -196,29 +125,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Throughput (Request Count)",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 342,
         "left": 798,
@@ -254,29 +167,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c100,\u003c=+15%;warning=\u003c=600;key=true",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 228,
         "left": 0,
@@ -301,29 +198,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Exceptions Count by Test Step;sli=kpi_et_ex;pass=\u003c=100;warning=\u003c=200;weight=2;key=true",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 228,
         "left": 1254,
@@ -346,29 +227,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "IO time",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 494,
         "left": 950,
@@ -404,29 +269,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Lock time",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 494,
         "left": 1254,
@@ -462,29 +311,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "### Transactional Analysis on CPU Consumption, I/O time and Lock time",
+      "markdown": "### Transactional Analysis on CPU Consumption, I/O time and Lock time",
       "bounds": {
         "top": 190,
         "left": 836,
@@ -493,30 +326,13 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "- Automatic FullStack Observability\n- End-End [Load-Testing](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/jmeter/easytravel-classic-random-book.jmx) on every commit/merge\n- Automatic release comparison based on SLI/SLO\n- SLI and SLO based on Purepath4 and FullStack Observability\n- Evaluate Performance, Architecture and Business KPI automatically\n- Shift Business KPIs on Quality Gates",
+      "markdown": "- Automatic FullStack Observability\n- End-End [Load-Testing](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/jmeter/easytravel-classic-random-book.jmx) on every commit/merge\n- Automatic release comparison based on SLI/SLO\n- SLI and SLO based on Purepath4 and FullStack Observability\n- Evaluate Performance, Architecture and Business KPI automatically\n- Shift Business KPIs on Quality Gates",
       "bounds": {
         "top": 38,
         "left": 304,
@@ -525,30 +341,13 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "A Single Booking ensures that the application works as expected, but for every release we want to make sure the application not only works as expected but also under load. \nPerformance Problems, Scalability issues and Optimizations can be unveiled under load 🔥. Exactly where the application is needed the most is where it should NOT fail. It’s important to unveil the limits of each application in order to size it properly and not waste resources by not knowing the limits of the system.\n\nThis is why automated quality gates with automated performance testing, validation and release comparison is so important. Make sure automatically that every release works, every important KPI is fulfilled, it is important as well as architecture and performance SLOs by every Pull Requests or Merge. ",
+      "markdown": "A Single Booking ensures that the application works as expected, but for every release we want to make sure the application not only works as expected but also under load. \nPerformance Problems, Scalability issues and Optimizations can be unveiled under load 🔥. Exactly where the application is needed the most is where it should NOT fail. It’s important to unveil the limits of each application in order to size it properly and not waste resources by not knowing the limits of the system.\n\nThis is why automated quality gates with automated performance testing, validation and release comparison is so important. Make sure automatically that every release works, every important KPI is fulfilled, it is important as well as architecture and performance SLOs by every Pull Requests or Merge. ",
       "bounds": {
         "top": 0,
         "left": 1178,
@@ -557,30 +356,13 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Response time (P90)",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Single value",
-      "Markdown": "",
+      "customName": "Single value",
       "bounds": {
         "top": 608,
         "left": 266,
@@ -616,29 +398,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Response time (P95)",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Single value",
-      "Markdown": "",
+      "customName": "Single value",
       "bounds": {
         "top": 608,
         "left": 0,
@@ -656,29 +422,13 @@
           "timeAggregation": "DEFAULT",
           "splitBy": null
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Response time (P50)",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Single value",
-      "Markdown": "",
+      "customName": "Single value",
       "bounds": {
         "top": 608,
         "left": 532,
@@ -696,29 +446,13 @@
           "timeAggregation": "DEFAULT",
           "splitBy": null
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Error count",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 228,
         "left": 798,
@@ -754,29 +488,12 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 228,
         "left": 1710,
@@ -786,8 +503,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Error count;sli=error_count;pass=\u003c2;warning=\u003c=5;weight=2;key=true",
@@ -823,10 +538,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 494,
         "left": 798,
@@ -836,8 +547,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Throughput (Request Count);sli=throughput_svc;pass=\u003e5000;key=true",
@@ -873,10 +582,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 380,
         "left": 1710,
@@ -886,8 +591,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "CPU time;sli=cpu_time;pass=\u003c150000,\u003c=+10%;warning=\u003e+10%",
@@ -923,10 +626,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 684,
         "left": 1710,
@@ -936,8 +635,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "IO time;sli=io_time;pass=\u003c2500000,\u003c=+10%;warning=\u003e+10%",
@@ -973,10 +670,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 532,
         "left": 1710,
@@ -986,8 +679,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Lock time;sli=lock_time;pass=\u003c2,\u003c=+10%;warning=\u003e+10%",
@@ -1023,10 +714,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 798,
         "left": 1254,
@@ -1036,8 +723,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "DB calls;sli=db_calls;pass=\u003c22000,\u003c=+10%;warning=\u003e+10%",
@@ -1073,10 +758,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 798,
         "left": 798,
@@ -1086,8 +767,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Non DB calls;sli=non_db_calls;pass=\u003c45000,\u003c=+10%;warning=\u003e+10%",
@@ -1123,10 +802,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 836,
         "left": 532,
@@ -1136,8 +811,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c2;warning=\u003c3;weight=2;key=true",
@@ -1173,10 +846,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 836,
         "left": 266,
@@ -1186,8 +855,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c90;warning=\u003c110;weight=2;key=true",
@@ -1223,10 +890,6 @@
       "name": "",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "",
       "bounds": {
         "top": 836,
         "left": 0,
@@ -1236,8 +899,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1100;warning=\u003c2000;weight=2;key=true",
@@ -1273,10 +934,7 @@
       "name": "DB calls",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 798,
         "left": 1406,
@@ -1312,29 +970,13 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
-      }
+      ]
     },
     {
       "name": "Non DB calls",
       "tileType": "DATA_EXPLORER",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "Data explorer results",
-      "Markdown": "",
+      "customName": "Data explorer results",
       "bounds": {
         "top": 798,
         "left": 950,
@@ -1370,51 +1012,36 @@
             "criteria": []
           }
         }
-      ],
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "markdown": "### Deliver better Software faster with Intelligent Quality Gates and Performance as a Service",
+      "bounds": {
+        "top": 38,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": ""
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "CustomName": "",
-      "Markdown": "### Deliver better Software faster with Intelligent Quality Gates and Performance as a Service",
+      "markdown": "Keptn files: [Shipyard file](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/master/shipyard.yaml) | [Perf. strategy](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/jmeter/jmeter.conf.yaml) | [Loadtest](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/jmeter/easytravel-classic-random-book.jmx)\n\n",
       "bounds": {
-        "top": 38,
-        "left": 0,
-        "width": 304,
-        "height": 152
+        "top": 152,
+        "left": 836,
+        "width": 342,
+        "height": 38
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     }
   ]
