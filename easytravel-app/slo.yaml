@@ -6,34 +6,23 @@ comparison:
   number_of_comparison_results: 3
   aggregate_function: avg
 objectives:
-- sli: kpi_rt_4_-_Random_Search
-  displayName: ""
-  pass:
-  - criteria:
-    - <100
-    - <=+10%
-  warning:
-  - criteria:
-    - <=600
-  weight: 1
-  key_sli: true
 - sli: kpi_rt_9_-_Finish_Payment
   displayName: ""
   pass:
   - criteria:
     - <100
-    - <=+10%
+    - <=+15%
   warning:
   - criteria:
     - <=600
   weight: 1
   key_sli: true
-- sli: kpi_rt_6_-_Select_Payment
+- sli: kpi_rt_4_-_Random_Search
   displayName: ""
   pass:
   - criteria:
     - <100
-    - <=+10%
+    - <=+15%
   warning:
   - criteria:
     - <=600
@@ -44,7 +33,18 @@ objectives:
   pass:
   - criteria:
     - <100
-    - <=+10%
+    - <=+15%
+  warning:
+  - criteria:
+    - <=600
+  weight: 1
+  key_sli: true
+- sli: kpi_rt_6_-_Select_Payment
+  displayName: ""
+  pass:
+  - criteria:
+    - <100
+    - <=+15%
   warning:
   - criteria:
     - <=600
@@ -55,18 +55,7 @@ objectives:
   pass:
   - criteria:
     - <100
-    - <=+10%
-  warning:
-  - criteria:
-    - <=600
-  weight: 1
-  key_sli: true
-- sli: kpi_rt_8_-_Submit_Payment
-  displayName: ""
-  pass:
-  - criteria:
-    - <100
-    - <=+10%
+    - <=+15%
   warning:
   - criteria:
     - <=600
@@ -77,7 +66,18 @@ objectives:
   pass:
   - criteria:
     - <100
-    - <=+10%
+    - <=+15%
+  warning:
+  - criteria:
+    - <=600
+  weight: 1
+  key_sli: true
+- sli: kpi_rt_8_-_Submit_Payment
+  displayName: ""
+  pass:
+  - criteria:
+    - <100
+    - <=+15%
   warning:
   - criteria:
     - <=600
@@ -88,7 +88,7 @@ objectives:
   pass:
   - criteria:
     - <100
-    - <=+10%
+    - <=+15%
   warning:
   - criteria:
     - <=600
@@ -99,7 +99,7 @@ objectives:
   pass:
   - criteria:
     - <100
-    - <=+10%
+    - <=+15%
   warning:
   - criteria:
     - <=600
