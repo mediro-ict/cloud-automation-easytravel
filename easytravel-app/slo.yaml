@@ -6,17 +6,6 @@ comparison:
   number_of_comparison_results: 3
   aggregate_function: avg
 objectives:
-- sli: kpi_rt_4_-_Random_Search
-  displayName: ""
-  pass:
-  - criteria:
-    - <100
-    - <=+15%
-  warning:
-  - criteria:
-    - <=600
-  weight: 1
-  key_sli: true
 - sli: kpi_rt_9_-_Finish_Payment
   displayName: ""
   pass:
@@ -28,7 +17,7 @@ objectives:
     - <=600
   weight: 1
   key_sli: true
-- sli: kpi_rt_6_-_Select_Payment
+- sli: kpi_rt_4_-_Random_Search
   displayName: ""
   pass:
   - criteria:
@@ -50,6 +39,17 @@ objectives:
     - <=600
   weight: 1
   key_sli: true
+- sli: kpi_rt_6_-_Select_Payment
+  displayName: ""
+  pass:
+  - criteria:
+    - <100
+    - <=+15%
+  warning:
+  - criteria:
+    - <=600
+  weight: 1
+  key_sli: true
 - sli: kpi_rt_5_-_Select_Journey
   displayName: ""
   pass:
@@ -61,7 +61,7 @@ objectives:
     - <=600
   weight: 1
   key_sli: true
-- sli: kpi_rt_8_-_Submit_Payment
+- sli: kpi_rt_3_-_Login
   displayName: ""
   pass:
   - criteria:
@@ -72,7 +72,7 @@ objectives:
     - <=600
   weight: 1
   key_sli: true
-- sli: kpi_rt_3_-_Login
+- sli: kpi_rt_8_-_Submit_Payment
   displayName: ""
   pass:
   - criteria:
