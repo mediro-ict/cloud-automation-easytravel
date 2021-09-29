@@ -681,7 +681,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Lock time;sli=lock_time;pass=\u003c2,\u003c=+10%;warning=\u003e+10%",
+        "customName": "Lock time;sli=lock_time;pass=\u003c100,\u003c=+10%;warning=\u003e+10%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
