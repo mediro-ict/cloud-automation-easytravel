@@ -170,37 +170,6 @@
       ]
     },
     {
-      "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c100,\u003c=+15%;warning=\u003c=600;key=true",
-      "tileType": "DATA_EXPLORER",
-      "configured": true,
-      "customName": "Data explorer results",
-      "bounds": {
-        "top": 228,
-        "left": 0,
-        "width": 798,
-        "height": 380
-      },
-      "tileFilter": {
-        "timeframe": ""
-      },
-      "queries": [
-        {
-          "id": "A",
-          "metric": "calc:service.teststepresponsetime",
-          "spaceAggregation": "AVG",
-          "timeAggregation": "DEFAULT",
-          "splitBy": [
-            "Test Step"
-          ],
-          "filterBy": {
-            "filterOperator": "AND",
-            "nestedFilters": [],
-            "criteria": []
-          }
-        }
-      ]
-    },
-    {
       "name": "Exceptions Count by Test Step;sli=kpi_et_ex;pass=\u003c=100;warning=\u003c=200;weight=2;key=true",
       "tileType": "DATA_EXPLORER",
       "configured": true,
@@ -1043,6 +1012,37 @@
       "tileFilter": {
         "timeframe": ""
       }
+    },
+    {
+      "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c600,\u003c=+15%;warning=\u003c=1000;key=true",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "customName": "Data explorer results",
+      "bounds": {
+        "top": 228,
+        "left": 0,
+        "width": 798,
+        "height": 380
+      },
+      "tileFilter": {
+        "timeframe": ""
+      },
+      "queries": [
+        {
+          "id": "A",
+          "metric": "calc:service.teststepresponsetime",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "Test Step"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          }
+        }
+      ]
     }
   ]
 }
