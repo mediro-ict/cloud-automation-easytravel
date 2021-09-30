@@ -42,7 +42,7 @@ objectives:
     - <=+10%
   warning:
   - criteria:
-    - '>+10%'
+    - <+20%
   weight: 1
   key_sli: false
 - sli: io_time
@@ -53,7 +53,7 @@ objectives:
     - <=+10%
   warning:
   - criteria:
-    - '>+10%'
+    - <+20%
   weight: 1
   key_sli: false
 - sli: lock_time
@@ -64,7 +64,7 @@ objectives:
     - <=+10%
   warning:
   - criteria:
-    - '>+10%'
+    - <+20%
   weight: 1
   key_sli: false
 - sli: db_calls
@@ -75,7 +75,7 @@ objectives:
     - <=+10%
   warning:
   - criteria:
-    - '>+10%'
+    - <+20%
   weight: 1
   key_sli: false
 - sli: non_db_calls
@@ -86,7 +86,7 @@ objectives:
     - <=+10%
   warning:
   - criteria:
-    - '>+10%'
+    - <+20%
   weight: 1
   key_sli: false
 - sli: svc_rt_p50
@@ -141,7 +141,7 @@ objectives:
     - <=1000
   weight: 1
   key_sli: true
-- sli: kpi_rt_6_-_Select_Payment
+- sli: kpi_rt_2_-_CalculateRecommendations
   displayName: ""
   pass:
   - criteria:
@@ -152,7 +152,7 @@ objectives:
     - <=1000
   weight: 1
   key_sli: true
-- sli: kpi_rt_2_-_CalculateRecommendations
+- sli: kpi_rt_6_-_Select_Payment
   displayName: ""
   pass:
   - criteria:
@@ -174,7 +174,7 @@ objectives:
     - <=1000
   weight: 1
   key_sli: true
-- sli: kpi_rt_8_-_Submit_Payment
+- sli: kpi_rt_3_-_Login
   displayName: ""
   pass:
   - criteria:
@@ -185,7 +185,7 @@ objectives:
     - <=1000
   weight: 1
   key_sli: true
-- sli: kpi_rt_3_-_Login
+- sli: kpi_rt_8_-_Submit_Payment
   displayName: ""
   pass:
   - criteria:
