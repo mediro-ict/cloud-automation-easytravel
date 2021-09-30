@@ -562,7 +562,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "CPU time;sli=cpu_time;pass=\u003c150000,\u003c=+10%;warning=\u003e+10%",
+        "customName": "CPU time;sli=cpu_time;pass=\u003c150000,\u003c=+10%;warning=\u003c+20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -606,7 +606,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "IO time;sli=io_time;pass=\u003c2500000,\u003c=+10%;warning=\u003e+10%",
+        "customName": "IO time;sli=io_time;pass=\u003c2500000,\u003c=+10%;warning=\u003c+20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -650,7 +650,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Lock time;sli=lock_time;pass=\u003c100,\u003c=+10%;warning=\u003e+10%",
+        "customName": "Lock time;sli=lock_time;pass=\u003c100,\u003c=+10%;warning=\u003c+20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -694,7 +694,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "DB calls;sli=db_calls;pass=\u003c22000,\u003c=+10%;warning=\u003e+10%",
+        "customName": "DB calls;sli=db_calls;pass=\u003c22000,\u003c=+10%;warning=\u003c+20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -738,7 +738,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Non DB calls;sli=non_db_calls;pass=\u003c45000,\u003c=+10%;warning=\u003e+10%",
+        "customName": "Non DB calls;sli=non_db_calls;pass=\u003c45000,\u003c=+10%;warning=\u003c+20%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
