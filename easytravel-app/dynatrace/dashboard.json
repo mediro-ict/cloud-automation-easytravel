@@ -29,11 +29,11 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge/project/dynatrace) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) ",
+      "markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [🚦Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge/project/dynatrace) \n| [GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n| [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n|[⏱Tests Schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) | [🚀 Release Inventory](/ui/releases?gtf=-2h\u0026gf=all\u0026filter=Tag:CloudAutomation%20EasyTravel)",
       "bounds": {
         "top": 190,
         "left": 0,
-        "width": 836,
+        "width": 798,
         "height": 38
       },
       "tileFilter": {
@@ -987,7 +987,7 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "markdown": "### Deliver better Software faster with Intelligent Quality Gates and Performance as a Service",
+      "markdown": "### Deliver better Software faster with Intelligent Release Validation and Performance as a Service:",
       "bounds": {
         "top": 38,
         "left": 0,
