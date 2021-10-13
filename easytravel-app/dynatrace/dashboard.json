@@ -44,7 +44,7 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=85%;KQG.Compare.WithScore=pass;KQG.Compare.Results=3;KQG.Compare.Function=avg\n",
+      "markdown": "KQG.Total.Pass=85%;KQG.Total.Warning=80%;KQG.Compare.WithScore=pass;KQG.Compare.Results=3;KQG.Compare.Function=avg\n",
       "bounds": {
         "top": 0,
         "left": 0,
