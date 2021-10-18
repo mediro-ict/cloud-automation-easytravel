@@ -2,14 +2,13 @@ spec_version: 0.1.4
 indicators:
   cpu_time: MV2;MicroSecond;metricSelector=builtin:service.cpu.perRequest:merge("dt.entity.service"):sum:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  db_calls: MV2;Count;metricSelector=builtin:service.dbChildCallCount:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
+  db_calls: metricSelector=builtin:service.dbChildCallCount:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  error_count: MV2;Count;metricSelector=builtin:service.errors.total.count:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
+  error_count: metricSelector=builtin:service.errors.total.count:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
   io_time: MV2;MicroSecond;metricSelector=builtin:service.ioTime:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  kpi_et_ex: MV2;Count;metricSelector=calc:service.exceptionsbyteststep:merge("Test
-    Step"):merge("dt.entity.service"):avg:names
+  kpi_et_ex: metricSelector=calc:service.exceptionsbyteststep:merge("Test Step"):merge("dt.entity.service"):avg:names
   kpi_rt_1_-_Home_Page: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge("dt.entity.service"):avg:names:filter(eq(Test
     Step,1 - Home Page))
   kpi_rt_2_-_CalculateRecommendations: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge("dt.entity.service"):avg:names:filter(eq(Test
@@ -30,7 +29,7 @@ indicators:
     Step,9 - Finish Payment))
   lock_time: MV2;MicroSecond;metricSelector=builtin:service.lockTime:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  non_db_calls: MV2;Count;metricSelector=builtin:service.nonDbChildCallCount:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
+  non_db_calls: metricSelector=builtin:service.nonDbChildCallCount:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
   svc_rt_p50: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(50.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
@@ -38,4 +37,4 @@ indicators:
     EasyTravel")
   svc_rt_p95: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(95.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  throughput_svc: MV2;Count;metricSelector=builtin:service.requestCount.total:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  throughput_svc: metricSelector=builtin:service.requestCount.total:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
