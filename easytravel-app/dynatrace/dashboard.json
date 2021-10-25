@@ -826,7 +826,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c90;warning=\u003c110;weight=2;key=true",
+        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c110;warning=\u003c350;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
