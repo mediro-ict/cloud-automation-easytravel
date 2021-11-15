@@ -8,7 +8,7 @@ indicators:
     EasyTravel")
   io_time: MV2;MicroSecond;metricSelector=builtin:service.ioTime:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  kpi_et_ex: metricSelector=calc:service.exceptionsbyteststep:merge("Test Step"):merge("dt.entity.service"):avg:names
+  kpi_et_ex: metricSelector=calc:service.exceptionsbyteststep:merge("Test Step"):merge("dt.entity.service"):sum:names
   kpi_rt_1_-_Home_Page: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge("dt.entity.service"):avg:names:filter(eq(Test
     Step,1 - Home Page))
   kpi_rt_2_-_CalculateRecommendations: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge("dt.entity.service"):avg:names:filter(eq(Test
