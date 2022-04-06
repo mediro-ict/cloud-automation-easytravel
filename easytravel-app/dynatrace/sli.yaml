@@ -1,33 +1,18 @@
 spec_version: 0.1.4
 indicators:
-  cpu_time: ""
+  cpu_time: MV2;MicroSecond;metricSelector=builtin:service.cpu.perRequest:splitBy():sum:names&entitySelector=type(SERVICE),tag("CloudAutomation
+    EasyTravel")
   db_calls: ""
   error_count: ""
-  io_time: ""
-  kpi_et_ex: metricSelector=calc:service.exceptionsbyteststep:splitBy():sum:names
-  kpi_rt_1_-_Home_Page: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,1 - Home Page))
-  kpi_rt_2_-_CalculateRecommendations: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,2 - CalculateRecommendations))
-  kpi_rt_3_-_Login: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,3 - Login))
-  kpi_rt_4_-_Random_Search: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,4 - Random Search))
-  kpi_rt_5_-_Select_Journey: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,5 - Select Journey))
-  kpi_rt_6_-_Select_Payment: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,6 - Select Payment))
-  kpi_rt_7_-_Mock_Creditcard_Number: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,7 - Mock Creditcard Number))
-  kpi_rt_8_-_Submit_Payment: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,8 - Submit Payment))
-  kpi_rt_9_-_Finish_Payment: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,9 - Finish Payment))
-  lock_time: ""
-  non_db_calls: metricSelector=builtin:service.nonDbChildCallCount:splitBy():value:names&entitySelector=type(SERVICE),tag("CloudAutomation
+  io_time: MV2;MicroSecond;metricSelector=builtin:service.ioTime:splitBy():value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
+  kpi_et_ex: ""
+  kpi_rt: ""
+  lock_time: ""
+  non_db_calls: ""
   svc_rt_p50: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():percentile(50.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  svc_rt_p90: ""
+  svc_rt_p90: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():percentile(90.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
+    EasyTravel")
   svc_rt_p95: ""
-  throughput_svc: metricSelector=builtin:service.requestCount.total:splitBy():value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
+  throughput_svc: ""
