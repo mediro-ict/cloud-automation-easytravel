@@ -6,7 +6,8 @@ indicators:
     EasyTravel")
   error_count: metricSelector=builtin:service.errors.total.count:splitBy():value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  io_time: ""
+  io_time: metricSelector=builtin:service.ioTime:splitBy():value:names&entitySelector=type(SERVICE),tag("CloudAutomation
+    EasyTravel")
   kpi_et_ex: metricSelector=calc:service.exceptionsbyteststep:splitBy():sum:names
   kpi_rt_1_-_Home_Page: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
     Step"):avg:names:filter(eq(Test Step,1 - Home Page))
@@ -30,10 +31,8 @@ indicators:
     EasyTravel")
   non_db_calls: metricSelector=builtin:service.nonDbChildCallCount:splitBy():value:names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  svc_rt_p50: metricSelector=builtin:service.response.time:splitBy():percentile(50.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
+  svc_rt_p50: ""
+  svc_rt_p90: metricSelector=builtin:service.response.time:splitBy():percentile(90.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
     EasyTravel")
-  svc_rt_p90: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():percentile(90.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
-    EasyTravel")
-  svc_rt_p95: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():percentile(95.000000):names&entitySelector=type(SERVICE),tag("CloudAutomation
-    EasyTravel")
+  svc_rt_p95: ""
   throughput_svc: metricSelector=builtin:service.requestCount.total:splitBy():value:names&entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")
