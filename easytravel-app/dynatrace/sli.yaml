@@ -5,24 +5,7 @@ indicators:
   error_count: entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.errors.total.count:splitBy():value:names
   io_time: MV2;MicroSecond;entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.ioTime:splitBy():value:names
   kpi_et_ex: metricSelector=calc:service.exceptionsbyteststep:splitBy():sum:names
-  kpi_rt_1_-_Home_Page: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,1 - Home Page))
-  kpi_rt_2_-_CalculateRecommendations: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,2 - CalculateRecommendations))
-  kpi_rt_3_-_Login: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,3 - Login))
-  kpi_rt_4_-_Random_Search: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,4 - Random Search))
-  kpi_rt_5_-_Select_Journey: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,5 - Select Journey))
-  kpi_rt_6_-_Select_Payment: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,6 - Select Payment))
-  kpi_rt_7_-_Mock_Creditcard_Number: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,7 - Mock Creditcard Number))
-  kpi_rt_8_-_Submit_Payment: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,8 - Submit Payment))
-  kpi_rt_9_-_Finish_Payment: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:splitBy("Test
-    Step"):avg:names:filter(eq(Test Step,9 - Finish Payment))
+  kpi_rt: metricSelector=calc:service.teststepresponsetime:splitBy("Test Step"):avg:names
   lock_time: MV2;MicroSecond;entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.lockTime:splitBy():value:names
   non_db_calls: entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.nonDbChildCallCount:splitBy():value:names
   svc_rt_p50: MV2;MicroSecond;entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.response.time:splitBy():percentile(50.000000):names
