@@ -1,12 +1,12 @@
 spec_version: 0.1.4
 indicators:
-    slo_4a3beb77-6c22-3955-8adc-5bff8f98d572: ""
-    slo_4d34e79f-5a4c-3874-b68f-7642662c83f8: ""
-    slo_217a2480-3489-3139-89ad-1ff4f7a52cd4: ""
-    slo_333ba264-7a67-3d65-a5f0-f4614658d291: ""
+    BookingService_Availability: SLO;fae4efa9-4293-3cd8-96da-e999ec562f9a
+    BookingService_Service_Performance: SLO;5234e97c-9c14-3a03-8fff-dceaa199b954
+    CheckDestination_Availability: SLO;4d34e79f-5a4c-3874-b68f-7642662c83f8
+    CreditCardValidation_Availability: SLO;5490c429-33c5-3cdc-8fd9-993fd11fe9b1
+    CreditCardValidation_Service_Performance: SLO;333ba264-7a67-3d65-a5f0-f4614658d291
+    EasytravelService_Availability: SLO;217a2480-3489-3139-89ad-1ff4f7a52cd4
+    EasytravelService_Service_Performance: SLO;d1402272-ea24-3a24-933b-2af4a808f867
+    JourneyService_Availability: SLO;56353970-cb11-3fe3-806c-cb78efc05f37
+    Service_Performance_Check_Destination: SLO;4a3beb77-6c22-3955-8adc-5bff8f98d572
     slo_3271caed-ad60-3575-8852-85c15f17b8b1: ""
-    slo_5234e97c-9c14-3a03-8fff-dceaa199b954: ""
-    slo_5490c429-33c5-3cdc-8fd9-993fd11fe9b1: ""
-    slo_56353970-cb11-3fe3-806c-cb78efc05f37: ""
-    slo_d1402272-ea24-3a24-933b-2af4a808f867: ""
-    slo_fae4efa9-4293-3cd8-96da-e999ec562f9a: ""
