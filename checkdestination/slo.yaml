@@ -1,0 +1,22 @@
+spec_version: ""
+filter: {}
+comparison:
+    compare_with: several_results
+    include_result_with_score: pass
+    number_of_comparison_results: 3
+    aggregate_function: avg
+objectives:
+    - sli: db_calls
+      displayName: ""
+      pass:
+        - criteria:
+            - <22000
+            - <=+10%
+      warning:
+        - criteria:
+            - <+20%
+      weight: 1
+      key_sli: false
+total_score:
+    pass: 85%
+    warning: 80%
