@@ -86,14 +86,14 @@ objectives:
             - '>=99.980000'
       weight: 1
       key_sli: false
-    - sli: Log4J_vulnerability_Tolerance_SLO
+    - sli: Service_Performance_Check_Destination
       displayName: ""
       pass:
         - criteria:
-            - '>=99.000000'
+            - '>=97.500000'
       warning:
         - criteria:
-            - '>=98.000000'
+            - '>=94.000000'
       weight: 1
       key_sli: false
 total_score:
