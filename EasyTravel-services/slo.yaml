@@ -1,35 +1,41 @@
-spec_version: "1.0"
+spec_version: ""
 filter: {}
 comparison:
-    compare_with: single_result
+    compare_with: several_results
     include_result_with_score: pass
-    number_of_comparison_results: 1
+    number_of_comparison_results: 3
     aggregate_function: avg
 objectives:
-    - sli: response_time_p95
+    - sli: CheckDestination_Availability
       displayName: ""
       pass:
         - criteria:
-            - <600
+            - '>=99.990000'
       warning:
         - criteria:
-            - <=800
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: error_rate
+    - sli: JourneyService_Availability
       displayName: ""
       pass:
         - criteria:
-            - <5
-      warning: []
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: throughput
+    - sli: BookingService_Availability
       displayName: ""
-      pass: []
-      warning: []
-      weight: 0
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
+      weight: 1
       key_sli: false
 total_score:
-    pass: 90%
-    warning: 75%
+    pass: 85%
+    warning: 80%
