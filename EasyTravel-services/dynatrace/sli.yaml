@@ -1,5 +1,6 @@
 spec_version: 0.1.4
 indicators:
-    BookingService_Availability: SLO;fae4efa9-4293-3cd8-96da-e999ec562f9a
-    CheckDestination_Availability: SLO;4d34e79f-5a4c-3874-b68f-7642662c83f8
-    JourneyService_Availability: SLO;56353970-cb11-3fe3-806c-cb78efc05f37
+    slo_4d34e79f-5a4c-3874-b68f-7642662c83f8: ""
+    slo_5490c429-33c5-3cdc-8fd9-993fd11fe9b1: ""
+    slo_56353970-cb11-3fe3-806c-cb78efc05f37: ""
+    slo_fae4efa9-4293-3cd8-96da-e999ec562f9a: ""
