@@ -9,4 +9,4 @@ indicators:
     EasytravelService_Service_Performance: SLO;d1402272-ea24-3a24-933b-2af4a808f867
     JourneyService_Availability: SLO;56353970-cb11-3fe3-806c-cb78efc05f37
     Log4J_vulnerability_Tolerance_SLO: SLO;3271caed-ad60-3575-8852-85c15f17b8b1
-    Service_Performance_Check_Destination: SLO;4a3beb77-6c22-3955-8adc-5bff8f98d572
+    slo_4a3beb77-6c22-3955-8adc-5bff8f98d572: ""
