@@ -56,16 +56,6 @@ objectives:
             - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: EasytravelService_Service_Performance
-      displayName: ""
-      pass:
-        - criteria:
-            - '>=99.990000'
-      warning:
-        - criteria:
-            - '>=99.980000'
-      weight: 1
-      key_sli: false
     - sli: BookingService_Service_Performance
       displayName: ""
       pass:
