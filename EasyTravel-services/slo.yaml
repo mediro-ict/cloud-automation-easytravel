@@ -6,7 +6,7 @@ comparison:
     number_of_comparison_results: 3
     aggregate_function: avg
 objectives:
-    - sli: CheckDestination_Availability
+    - sli: checkdestination_availability
       displayName: ""
       pass:
         - criteria:
@@ -16,7 +16,7 @@ objectives:
             - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: JourneyService_Availability
+    - sli: journeyservice_availability
       displayName: ""
       pass:
         - criteria:
@@ -26,7 +26,7 @@ objectives:
             - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: BookingService_Availability
+    - sli: bookingservice_availability
       displayName: ""
       pass:
         - criteria:
@@ -36,7 +36,7 @@ objectives:
             - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: CreditCardValidation_Availability
+    - sli: creditcardvalidation_availability
       displayName: ""
       pass:
         - criteria:
@@ -46,7 +46,7 @@ objectives:
             - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: EasytravelService_Availability
+    - sli: easytravelservice_availability
       displayName: ""
       pass:
         - criteria:
@@ -56,7 +56,7 @@ objectives:
             - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: BookingService_Service_Performance
+    - sli: bookingservice_service_performance
       displayName: ""
       pass:
         - criteria:
@@ -66,7 +66,7 @@ objectives:
             - '>=99.980000'
       weight: 1
       key_sli: false
-    - sli: CreditCardValidation_Service_Performance
+    - sli: creditcardvalidation_service_performance
       displayName: ""
       pass:
         - criteria:
@@ -76,7 +76,7 @@ objectives:
             - '>=99.980000'
       weight: 1
       key_sli: false
-    - sli: Log4J_vulnerability_Tolerance_SLO
+    - sli: log4j_vulnerability_tolerance_slo
       displayName: ""
       pass:
         - criteria:
@@ -86,7 +86,7 @@ objectives:
             - '>=98.000000'
       weight: 1
       key_sli: false
-    - sli: Service_Performance_Check_Destination
+    - sli: service_performance_check_destination
       displayName: ""
       pass:
         - criteria:
