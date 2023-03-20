@@ -96,16 +96,6 @@ objectives:
             - '>=94.000000'
       weight: 1
       key_sli: false
-    - sli: my_new_service-level_availability_objective
-      displayName: ""
-      pass:
-        - criteria:
-            - '>=99.990000'
-      warning:
-        - criteria:
-            - '>=99.980000'
-      weight: 1
-      key_sli: false
 total_score:
     pass: 85%
     warning: 80%
