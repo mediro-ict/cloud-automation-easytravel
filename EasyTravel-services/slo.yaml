@@ -6,52 +6,84 @@ comparison:
     number_of_comparison_results: 3
     aggregate_function: avg
 objectives:
-    - sli: slo_4d34e79f-5a4c-3874-b68f-7642662c83f8
+    - sli: checkdestination_availability
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: slo_56353970-cb11-3fe3-806c-cb78efc05f37
+    - sli: journeyservice_availability
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: slo_fae4efa9-4293-3cd8-96da-e999ec562f9a
+    - sli: bookingservice_availability
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: slo_5490c429-33c5-3cdc-8fd9-993fd11fe9b1
+    - sli: creditcardvalidation_availability
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: slo_217a2480-3489-3139-89ad-1ff4f7a52cd4
+    - sli: easytravelservice_availability
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.000000'
       weight: 1
       key_sli: false
-    - sli: slo_5234e97c-9c14-3a03-8fff-dceaa199b954
+    - sli: bookingservice_service_performance
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.980000'
       weight: 1
       key_sli: false
-    - sli: slo_333ba264-7a67-3d65-a5f0-f4614658d291
+    - sli: creditcardvalidation_service_performance
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.990000'
+      warning:
+        - criteria:
+            - '>=99.980000'
       weight: 1
       key_sli: false
-    - sli: slo_3271caed-ad60-3575-8852-85c15f17b8b1
+    - sli: log4j_vulnerability_tolerance_slo
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - '>=99.000000'
+      warning:
+        - criteria:
+            - '>=98.000000'
       weight: 1
       key_sli: false
     - sli: slo_4a3beb77-6c22-3955-8adc-5bff8f98d572
